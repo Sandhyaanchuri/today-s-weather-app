@@ -1,0 +1,140 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Search Box Styles */
+
+.search-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+  }
+  
+  #search-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  #search-btn {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #search-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Weather Box Styles */
+  
+  .weather-box {
+    margin-top: 20px;
+  }
+  
+  .box {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+  }
+  
+  .info-weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .weather {
+    text-align: center;
+  }
+  
+  .weather img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .temperature {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Weather Details Styles */
+  
+  .weather-details {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .humidity, .wind {
+    width: 45%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+  }
+  
+  .bx-water, .bx-wind {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .info-humidity, .info-wind {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .text p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Not Found Styles */
+  
+  .not-found {
+    margin-top: 20px;
+    display: none;
+  }
+  
+  .not-found img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .not-found p {
+    font-size: 16px;
+    color: #666;
+  }
